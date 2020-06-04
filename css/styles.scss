@@ -1,30 +1,63 @@
 body {
 	font-family: sans-serif;
 	margin: 20px;
+	background-image: url(../images/back.jpg);
 
-  .board {
-  	background: yellow;
-  	width: 300px;
-  	height: 300px;
-    margin-bottom: 20px;
-  }
+	h1{
+		color: white;
+		font-family: "Blenny Black";
+		font-size: 450%;
+		text-align: center;
+		margin-top: 30px;
 
-  .square {
-  	width: 100px;
-  	height: 100px;
-  	float: left;
+	}
 
-    &.red {
-    	background: red;
-    }
+	h2{
 
-    &.green {
-    	background: green;
-    }
-  }
+		color:white;
+		font-family: "Gill Sans";
+		font-weight: lighter;
+		text-indent: 0;
+		text-align: center;
+	}
 
-  .animal {
-    width: 100px;
-    height: auto;
+	h3{
+		text-align: left;
+		font-family: "Blenny Black";
+		color: white;
+	}
+
+	p {
+
+		color: white;
+		display: block;
+
+		font-family: "Gill Sans";
+		font-size: 120%;
+		font-weight: lighter;
+
+
+	}
+
+		.block{
+		float: right;
+		margin-block-start: 6em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+		margin-left: 1200px;
+		margin-right: 12px;
+	}
+
+		.container{
+			vertical-align: bottom;
+		}
+
+	button, input {
+
+		float: left;
+		margin-top: 540px;
+		margin-left: 20PX;
+
   }
 }
